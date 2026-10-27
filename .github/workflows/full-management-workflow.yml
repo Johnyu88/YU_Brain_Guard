@@ -1,0 +1,8 @@
+name: full-management-workflow.yml
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo full-management-workflow.yml
